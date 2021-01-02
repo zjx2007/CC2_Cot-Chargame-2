@@ -38,7 +38,7 @@ bool high=0;
     return str;
 }*/
 
-string help[100]= {"Help",
+string help[100]= {"Cot Chargame","Help:","",
                    "Player is displayed as character \"+\"",
                    "Press \"W,A,S,D\" to move",
                    "The wall is \"X\" which you can't go through it'",
@@ -172,7 +172,7 @@ void runMap() {
 			x++;
 		}
 		if(KEY_DOWN('H')) {
-			system("mode con cols=38 lines=16");
+			system("mode con cols=50 lines=17");
 			system("cls");
 			for(int i=0; i<13; i++) {
 				cout<<help[i]<<endl;
@@ -461,7 +461,7 @@ int main() {
 			x++;
 		} 
 		if(KEY_DOWN('H')) {
-			system("mode con cols=50 lines=16");
+			system("mode con cols=50 lines=17");
 			system("cls");
 			for(int i=0; i<13; i++) {
 				cout<<help[i]<<endl;
@@ -516,7 +516,7 @@ int main() {
 			x++;
 		}
 		if(KEY_DOWN('H')) {
-			system("mode con cols=38 lines=15");
+			system("mode con cols=50 lines=17");
 			system("cls");
 			for(int i=0; i<13; i++) {
 				cout<<help[i]<<endl;
@@ -571,7 +571,7 @@ int main() {
 			x++;
 		}
 		if(KEY_DOWN('H')) {
-			system("mode con cols=38 lines=15");
+			system("mode con cols=50 lines=17");
 			system("cls");
 			for(int i=0; i<13; i++) {
 				cout<<help[i]<<endl;
@@ -630,7 +630,7 @@ int main() {
 			x++;
 		}
 		if(KEY_DOWN('H')) {
-			system("mode con cols=38 lines=15");
+			system("mode con cols=50 lines=17");
 			system("cls");
 			for(int i=0; i<13; i++) {
 				cout<<help[i]<<endl;
@@ -689,7 +689,7 @@ int main() {
 			x++;
 		}
 		if(KEY_DOWN('H')) {
-			system("mode con cols=38 lines=15");
+			system("mode con cols=50 lines=17");
 			system("cls");
 			for(int i=0; i<13; i++) {
 				cout<<help[i]<<endl;
@@ -746,7 +746,7 @@ int main() {
 			x++;
 		}
 		if(KEY_DOWN('H')) {
-			system("mode con cols=38 lines=15");
+			system("mode con cols=50 lines=17");
 			system("cls");
 			for(int i=0; i<13; i++) {
 				cout<<help[i]<<endl;
@@ -803,7 +803,7 @@ int main() {
 			x++;
 		}
 		if(KEY_DOWN('H')) {
-			system("mode con cols=38 lines=15");
+			system("mode con cols=50 lines=17");
 			system("cls");
 			for(int i=0; i<13; i++) {
 				cout<<help[i]<<endl;
